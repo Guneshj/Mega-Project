@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Order_place">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg6">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Management"
+            android:textSize="20sp"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ground Floor"
+                android:textColor="@color/design_default_color_on_primary"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Floor 1"
+                    android:textSize="15dp"
+                    android:textColor="@color/design_default_color_on_primary"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700"
+            android:layout_marginLeft="20dp">
+            </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Tables"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="2"
+            android:columnCount="3"
+            android:layout_marginTop="10dp">
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:background="@drawable/table_bg"
+                android:src="@drawable/table1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Table 1 \n Order Place"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@color/purple_700"
+                    android:gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:background="@drawable/table_bg"
+                    android:src="@drawable/table1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 2 \n Order Place"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/purple_700"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:background="@drawable/table_bg"
+                    android:src="@drawable/table1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 3 \n Order Place"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/purple_700"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </GridLayout>
+
+        </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="2"
+            android:columnCount="3"
+            android:layout_marginTop="10dp">
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:background="@drawable/table_bg"
+                    android:src="@drawable/table1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 4 \n Order Place"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/purple_700"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:background="@drawable/table_bg"
+                    android:src="@drawable/table1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 5 \n Order Place"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/purple_700"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:background="@drawable/table_bg"
+                    android:src="@drawable/table1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 6 \n Order Place"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/purple_700"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </GridLayout>
+
+        </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="2"
+            android:columnCount="3"
+            android:layout_marginTop="10dp">
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:background="@drawable/table_bg"
+                    android:src="@drawable/table1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 7 \n Order Place"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/purple_700"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:background="@drawable/table_bg"
+                    android:src="@drawable/table1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 8 \n Order Place"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/purple_700"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:background="@drawable/table_bg"
+                    android:src="@drawable/table1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 9 \n Order Place"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/purple_700"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </GridLayout>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

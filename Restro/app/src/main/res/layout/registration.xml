@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CanteenO"
+        android:textColor="@color/btn_gg"
+        android:textSize="65sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="17dp"
+        android:gravity="center">
+
+
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:ems="10"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:hint="Username"/>
+
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:ems="10"
+            android:layout_below="@+id/et_username"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+
+        <EditText
+            android:id="@+id/et_cpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:ems="10"
+            android:layout_below="@+id/et_password"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="Regestraion"
+            android:textSize="20dp"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/design_default_color_on_primary"
+            android:background="@drawable/btn1_style"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
